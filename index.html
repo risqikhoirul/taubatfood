@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaubatFood</title>
+    <!--     
+   Nama: M. Khoirul Risqi
+   Nim: 221101023
+   Kelas: TI 2A
+   Repository: https://github.com/risqikhoirul/taubatfood
+   Demo: https://risqikhoirul.github.io/taubatfood 
+  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="images/icon.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+          <img src="images/icon.jpeg" alt="site icon" />
+          <span class="text-uppercase fw-lighter ms-2">TaubatFood</span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header">home</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#satuan">satuan</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#paket">paket</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#tentang">tentang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px">
+      <div class="container h-100 d-flex align-items-center carousel-inner">
+        <div class="text-center carousel-item active">
+          <h2 class="text-capitalize text-white">Paling Laris</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-white">Baso Aci Ayam Suwir</h1>
+          <a href="https://shope.ee/2feHvDGj7h" class="btn mt-3 text-uppercase">Beli Sekarang</a>
+        </div>
+        <div class="text-center carousel-item">
+          <h2 class="text-capitalize text-white">Paling Murah</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-white">Seblak Cilok</h1>
+          <a href="https://shope.ee/5pbJh4czbf" class="btn mt-3 text-uppercase">Beli Sekarang</a>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- start satuan -->
+    <section id="satuan" class="py-5">
+      <div class="container">
+        <div class="title text-center py-5">
+          <h2 class="position-relative d-inline-block">Satuan</h2>
+        </div>
+
+        <div class="paket-list row g-0">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produk1.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1"><b>Baso Aci TaubatFood -</b> Ayam Suwir</p>
+              <span class="fw-bold d-block">Rp 16.099</span>
+              <a href="https://shope.ee/2feHvDGj7h" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produk2.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1"><b>Seblak TaubatFood - </b>Seblak Cilok</p>
+              <span class="fw-bold d-block">Rp 14.099</span>
+              <a href="https://shope.ee/5pbJh4czbf" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produk3.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1"><b>Seblak TaubatFood - </b>Seblak Cuanki</p>
+              <span class="fw-bold d-block">Rp 16.699</span>
+              <a href="https://shope.ee/9eo2GA5aYy" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produk4.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1"><b>Baso Aci TaubatFood - </b>Urat Jando</p>
+              <span class="fw-bold d-block">Rp 16.099</span>
+              <a href="https://shope.ee/502Chc514j" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end satuan -->
+
+    <!-- start paket -->
+    <section id="paket" class="py-5">
+      <div class="container">
+        <div class="title text-center py-5">
+          <h2 class="position-relative d-inline-block">Paket</h2>
+        </div>
+
+        <div class="paket-list row g-0">
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produks1.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">1 Baso Aci 1 Seblak Instan</p>
+              <span class="fw-bold d-block">Rp 32.999</span>
+              <a href="https://shope.ee/6AEA63AyIR" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produks2.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">2 Baso Aci Original + Cimol/Boci</p>
+              <span class="fw-bold d-block">Rp 43.99</span>
+              <a href="https://shope.ee/9UUc42jqUq" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produks3.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">2 Pcs Cimol Keju TaubatFood</p>
+              <span class="fw-bold d-block">Rp 33.999</span>
+              <a href="https://shope.ee/5fHtV3jh0i" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+            <div class="paket-img position-relative overflow-hidden">
+              <img src="images/produks4.jpeg" class="w-100" />
+              <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                <i class="fas fa-heart"></i>
+              </span>
+            </div>
+            <div class="text-center">
+              <p class="text-capitalize mt-3 mb-1">3 Seblak Cilok & Baso Aci Original</p>
+              <span class="fw-bold d-block">Rp 74.342</span>
+              <a href="https://shope.ee/1q5Avvmy8v" class="btn btn-primary mt-3">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end paket -->
+
+    <!-- about us -->
+    <section id="tentang" class="py-5">
+      <div class="container">
+        <div class="row gy-lg-5 align-items-center">
+          <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+            <div class="title pt-3 pb-5">
+              <h2 class="position-relative d-inline-block ms-4">Tentang</h2>
+            </div>
+            <p class="lead text-muted">TaubatFood</p>
+            <p>
+              TaubatFood merupakan produsen makanan/jajanan tradisonal yang berdiri sejak 2020. Pada awalnya, hanya menjual 1 produk hingga saat ini sudah memiliki tiga produk. Semua produk TaubatFood dibuat demgan rempah-rempah khas
+              Indonesia yang autentik. Dan diproses agar tetap awet dan aman hingga ditangan pembeli meskipun tanpa pengawet.
+            </p>
+            <p>TaubatFood sudah menjangkau Sumatera, Kalimantan, Sulawesi, Bali, Lombok. Bahkan hingga Luar Negeri, Dengan pasar usia 14-40 tahum.</p>
+            <p>Sementara Itu TaubatFood sudah memiliki sertifikat Halal dari MUI, dengan nomor sertifikat ID35110001126880622.</p>
+          </div>
+          <div class="col-lg-6 order-lg-0">
+            <img src="images/profil.jpeg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-3">
+            <a class="text-uppercase text-decoration-none brand text-white" href="index.html">TaubatFood</a>
+            <p class="text-white text-muted mt-3">Makanan dan Jajanan tradisonal halal tanpa pengawet</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light">Links</h5>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#header" class="text-white text-decoration-none text-muted"> <i class="fas fa-chevron-right me-1"></i> Home </a>
+              </li>
+              <li class="my-3">
+                <a href="#satuan" class="text-white text-decoration-none text-muted"> <i class="fas fa-chevron-right me-1"></i> Satuan </a>
+              </li>
+              <li class="my-3">
+                <a href="#paket" class="text-white text-decoration-none text-muted"> <i class="fas fa-chevron-right me-1"></i> Paket </a>
+              </li>
+              <li class="my-3">
+                <a href="#tentang" class="text-white text-decoration-none text-muted"> <i class="fas fa-chevron-right me-1"></i> Tentang </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Contact Us</h5>
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-map-marked-alt"></i>
+              </span>
+              <span class="fw-light"> Desa Ngumpak Delem 14/03, Dander, Bojonegoro, Jawa Timur ID 62171 </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="fw-light"> cs@taubatfood.com </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="fw-light"> +6285266667876 </span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a href="https://www.facebook.com/taubatfood" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/taubatfood/" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
