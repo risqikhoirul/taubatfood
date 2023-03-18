@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap");
 
 :root {
-  --lg-font: "Kaisei Tokumin", serif;
-  --sm-font: "Poppins", sans-serif;
   --pink: #e5345b;
 }
 body {
-  font-family: var(--sm-font);
+  font-family: "Cabin", sans-serif;
 }
 
 /* button */
@@ -42,7 +40,6 @@ body {
 }
 .navbar-brand span {
   letter-spacing: 2px;
-  font-family: var(--lg-font);
 }
 .nav-link:hover {
   color: var(--pink) !important;
@@ -57,7 +54,6 @@ body {
 }
 .carousel-inner h1 {
   font-size: 60px;
-  font-family: var(--lg-font);
 }
 .carousel-item .btn {
   border-color: #fff !important;
@@ -113,7 +109,6 @@ body {
 
 /* footer */
 footer .brand {
-  font-family: var(--lg-font);
   letter-spacing: 2px;
 }
 footer a {
