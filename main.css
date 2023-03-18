@@ -105,13 +105,9 @@ body {
   padding: 8px 20px !important;
 }
 .paket-img img {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .paket-img:hover img {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
